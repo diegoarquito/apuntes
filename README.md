@@ -21,7 +21,11 @@ Por ejemplo:Para añadir estilos en CSS ponemos la etiqueta style
 <html>
 <head>
     <title>color apuntes</title>
-    <style="color:red;">
+    <style>
+    .textoRojo[
+        color:red;
+    ]
+
 </head>
 <body>
 <ol>
