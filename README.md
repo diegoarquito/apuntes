@@ -60,3 +60,20 @@ Una clas es un conjunto de elemntos que agrupamos apra que tengan la mismas cara
 </body>
 </html>
 ```
+Abrimos una carpeta de css y dentro del head ponemos lo siguiente: 
+```
+<DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./css/estilos.css" type="text/css">
+</style>
+</head>
+<body>
+```
+Y en la carpeta css ponemos .TextoRojo{
+    color: red #ff0000
+} 
+Para despues en el body actue segun lo que le hayas puesto.
+
+Concepto de descendiente:
+Dejar un espacio entre diferentes elementos. Una misma declaracion podemos separarlos por comas (en el head). El combinador (que se supone que representan un espacio, o mejor dicho uno o más espacios en blanco) combina dos selectores tales que el selector combinado incluye sólo los elementos que coinciden con el segundo selector para los que hay un elemento ancestro que coincide con el primer selector. Los selectores descendientes son similares a selectores hijos , pero que no requieren que la relación entre los elementos coincidentes ser estrictamente entre padres e hijos.
